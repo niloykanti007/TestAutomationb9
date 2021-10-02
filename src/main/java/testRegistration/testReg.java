@@ -10,6 +10,8 @@ public class testReg {
     public static WebDriver driver;
 
     public static void main(String[] args) {
+
+
         launch_Chrome();
         open_registerPage();
         TC_Register_001();
@@ -34,7 +36,9 @@ public class testReg {
 
     //Step 2
     public static void open_registerPage(){
+
         driver.get("https://demo.opencart.com/index.php?route=account/register");
+
     }
 
 
@@ -106,8 +110,10 @@ public class testReg {
 
 
 
-    public static void close_Chrome(){
+    public static void close_Chrome() {
+
         driver.close();
+
     }
 
 }
